@@ -1,0 +1,107 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+  }
+  
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: #3399cc;
+    color: #f2f2f2;
+    font-family: "Urbanist", sans-serif;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+    text-align: center;
+  }
+
+  h1{
+    margin-top: 100px;
+  }
+  
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  .locationInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    background-color: #f2f2f2;
+    padding: 0.5rem;
+    border-radius: 50px;
+    margin: 1rem auto;
+    border: 2px solid #eeee;
+    box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075)
+  ;
+    
+    
+  }
+
+  .searchInput {
+    border: none;
+    width: 100%;
+    margin-right: 1rem;
+    background-color: #f2f2f2;
+  }
+
+  .searchInput:focus{
+    outline: none;
+  }
+  .svg-icon {
+    width: 1.5em;
+    height: 1.5em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #3399cc;
+  }
+  
+  .svg-icon circle {
+    stroke: #3399cc;
+    stroke-width: 1;
+  }
+
+  button{
+    border: none;
+    cursor: pointer;
+  }
+  
+  .weatherInfo {
+    display: none;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border: 2px solid #eeee;
+    color: black;
+    box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075)
+  ;
+  }
